@@ -1,0 +1,94 @@
+.table-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    color: #262d41; /* Global text color */
+    max-height: 80vh; /* Limits the container height for scrolling */
+    overflow-y: auto; /* Adds vertical scroll if content exceeds height */
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #262d41;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 210vh;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #262d41; /* Ensures all table text is #262d41 */
+  }
+  
+  thead th {
+    background-color: #262d41;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  tbody tr {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: #e8f5e9;
+    font-weight: 600; /* Slightly bolder text on hover */
+  }
+  
+  tbody tr td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.95rem;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  td div {
+    padding: 4px 0; /* Spacing for each point line within a cell */
+  }
+  
+  /* Rounded corners on table */
+  table {
+    border-radius: 10px;
+    overflow: hidden; /* Ensures rounded corners apply to content */
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Customize scrollbar appearance for a cleaner look */
+  .table-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #262d41;
+    border-radius: 10px;
+  }
+  .sheet-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #262d41;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

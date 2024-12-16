@@ -1,0 +1,92 @@
+/* Container for the verification page */
+.verification-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the verification page */
+.verification-page h2 {
+  font-size: 2rem;
+  color: #262d41;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* List style for files */
+.verification-page ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* Style for each file container */
+.verification-page .file-container {
+  background-color: #262d41; /* Dark blue for the file container */
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  max-height: 70px;
+  font-size: 0.9rem;
+  overflow: hidden;
+  width: 100%; /* Ensures it takes up full width but remains contained */
+}
+
+/* File name link style */
+.verification-page .file-container a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.verification-page .file-container a:hover {
+  color: #4caf50; /* Green hover color for file links */
+}
+
+/* Approve and Reject buttons */
+.verification-page button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  background-color: #007bff; /* Blue color for both buttons */
+  color: white;
+  font-weight: bold;
+  width: 90px; /* Set fixed width for buttons */
+}
+
+/* Hover effect for buttons */
+.verification-page button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for buttons container to arrange them side by side */
+.verification-page .buttons-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  align-items: center;
+  justify-content: flex-end; /* Align buttons to the right side */
+}
+
+/* Additional styling for the text */
+.verification-page p {
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,82 @@
+.upload-page {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 80px;
+    background-color: #262d41; /* Dark background color */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  h2 {
+    color: #f8f9fa; /* Light color for the header text */
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #adb5bd;
+  }
+  
+  .file-input {
+    display: none; /* Hides the default input */
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 30px;
+    border: 2px dashed #adb5bd;
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .file-input-label:hover {
+    background-color: #495057;
+    border-color: #6c757d;
+    color: #e9ecef;
+  }
+  
+  .btn-primary {
+    background-color: #17a2b8;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #138496;
+  }
+  
+  .btn-primary:active {
+    background-color: #117a8b;
+  }
+  
+  .file-name {
+    font-size: 0.9rem;
+    color: #adb5bd;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .toast-container {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  

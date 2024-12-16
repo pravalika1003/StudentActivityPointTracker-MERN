@@ -1,0 +1,58 @@
+.main-container {
+  background-color: #262d41; /* Main container background color */
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.files-page {
+  display: flex;
+  gap: 20px; /* Space between each file section */
+  background-color: #262d41; /* Updated background color */
+  padding: 40px;
+  border-radius: 10px;
+  color:white
+}
+
+/* File sections side-by-side with 3D effect */
+.file-section {
+  flex: 1; /* Make all sections take equal width */
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 50vh;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect to enhance the 3D look */
+.file-section:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25); /* Darker shadow on hover */
+}
+
+.pending-files-text {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.no-files-text {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.files-container .btn {
+  font-weight: bold;
+  color: white;
+  background-color: #2624d1;
+  transition: background-color 0.3s ease;
+}
+.uploaded-files-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
